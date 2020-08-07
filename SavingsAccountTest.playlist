@@ -1,0 +1,6 @@
+<Playlist Version="1.0"> 
+  <Add Test="GunvorRecruitment.Test.SavningsAccountTest.ShouldWithdrawOnePerMonth_OK" />
+  <Add Test="GunvorRecruitment.Test.SavningsAccountTest.ShouldBalanceWithnteresInTenYears" />
+  <Add Test="GunvorRecruitment.Test.SavningsAccountTest.ShouldBalanceWithnteresInOneYear" /> 
+  <Add Test="GunvorRecruitment.Test.SavningsAccountTest.ShouldWithdrawOnePerMonth_KO" />
+</Playlist>
