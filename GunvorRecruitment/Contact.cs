@@ -31,7 +31,7 @@
 
         public void UpdateAddress(string street, string postalCode, string city)
         {
-            lock (this)
+            lock (_lock)
             {
                 _street = street;
                 _postalCode = postalCode;
@@ -41,7 +41,7 @@
 
         public void UpdateAge(int age)
         {
-            lock (this)
+            lock (_lock)
             {
                 _age = age;
             }
