@@ -16,8 +16,7 @@
 
         public Contact(string firstName, string middleName, string secondName, string street, string postalCode, string city, int age)
         {
-            lock (_lock)
-            {
+
                 _firstName = firstName;
                 _middleName = middleName;
                 _secondName = secondName;    
@@ -25,7 +24,7 @@
                 _postalCode = postalCode;
                 _city = city;
                 _age = age;
-            }
+  
             
         }
 
